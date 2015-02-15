@@ -1,6 +1,14 @@
-frontend-nanodegree-arcade-game
-===============================
+List of links:
+1. stackoverflow.com
 
-Students should use this rubric: https://www.udacity.com/course/viewer#!/c-ud015/l-3072058665/m-3072588797
+2. developer.mozilla.org
 
-for self-checking their submission.
+3. w3schools.com
+
+4. ideas from similar frogger games on the web 
+(ie. http://labs.brianstoner.com/frogger/, http://tarrh.me/frogger/ etc.)
+
+5. Search results from google.com on different related topics
+
+Link to github pages:
+http://v-yussupov.github.io/frontend-nanodegree-arcade-game-master/
