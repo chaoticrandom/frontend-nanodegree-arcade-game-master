@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+	margin: 0 auto;
+	max-width: 900px;
+	background: #f1e8e8;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+#container {
+	margin: 0 auto;
+	width: 707px;
+}
+
+#game-info {
+	margin: 10px 0;
+	height: 50px;
+	/*background:	#f0f0f0; */
+}
+
+#game-title {
+	background: url(../images/udacity.png) 0 0 no-repeat;
+	float: left;
+	padding: 5px 0 0 30px; 
+	font-size: 20px;
+	height: 100%;
+	width: 150px;
+	/*background: #a2a2a2;*/
+}
+
+#level {
+	float: left;
+	font-size: 18px;
+	color: #f58e08;
+	height: 100%;
+	width: 110px;
+	text-align: left;
+	padding: 5px 0 0 10px;
+	/*background: #a4b2a2;*/
+}
+
+#score {
+	float: left;
+	font-size: 18px;
+	text-align: left;
+	padding-top: 5px;
+	height: 100%;
+	width: 140px;
+	/*background: #a4b2c3;*/
+}
+
+#highscore {
+	float: left;
+	font-size: 18px;
+	color: #f58e08;
+	text-align: left;
+	padding-top: 5px;
+	height: 100%;
+	width: 150px;
+	/*background: #f4b2a2;*/
+}
+
+#lives {
+	float: left;
+	background: url(../images/game-lives.png) 40% 50% no-repeat;
+	font-size: 25px;
+	text-align: right;
+	height: 100%;
+	width: 105px;
+	/*background: #a4c2a2;*/
+}
+
+#bkImage{
+    border:1px solid green;
+	position:absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	z-index:1;
+}
+
+canvas {
+	margin: 0 auto;
+	display: block;
+	z-index:100;
+    border:3px solid #1857e8;
+	position:absolute; 
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+#message {
+	display: none;
+	position: absolute;
+	padding-top: 20px;
+	width: 250px;
+	height: 80px;
+	text-align: center;
+	font-size: 25px;
+	background: #000;
+	border: 5px solid black;
+	opacity: 0.5;
+}
+
+.textOverlay {
+	color: #fff;
+	z-index: 10000;
+	font-weight: bold;
+	display: inline;
+}
+
+#gameover {
+	display: none;
+	position: absolute;
+	padding-top: 20px;
+	width: 250px;
+	height: 120px;
+	text-align: center;
+	font-size: 25px;
+	background: #000;
+	border: 5px solid black;
+	opacity: 0.5;
+}
