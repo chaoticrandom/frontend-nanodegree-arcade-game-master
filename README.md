@@ -1,4 +1,5 @@
 List of links:
+
 1. stackoverflow.com
 
 2. developer.mozilla.org
@@ -12,3 +13,6 @@ List of links:
 
 Link to github pages:
 http://v-yussupov.github.io/frontend-nanodegree-arcade-game-master/
+
+Note: zoom out with ctrl+mouse wheel to avoid vertical scrolling 
+	  (probably canvas should have been a bit smaller)
